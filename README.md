@@ -7,5 +7,5 @@
 
 Fix:
 
-1. Output сorrection "add-action" in contacts.js/
-1. Output сorrection "delete-action" in contacts.js/
+1. Output сorrection "add-action" in contacts.js/ -https://ibb.co/QdX8hd5
+1. Output сorrection "delete-action" in contacts.js/ - https://ibb.co/7zt3WjT
