@@ -16,8 +16,7 @@ const getContactById = async (contactId) => {
     const id = String(contactId)
 
     const contacts = await listContacts();
-    const result = contacts.filter(contact => contact.id === id)
-
+    const [result] = contacts.filter(contact => contact.id === id)
     return result || null;
 };
 
@@ -48,7 +47,7 @@ const removeContact = async (contactId) => {
     const [result] = contacts.splice(index, 1);
     await updateContacts(contacts);
 
-    return result;
+    return result || null;
 };
 
 const contactsAPI = {
